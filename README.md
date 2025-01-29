@@ -1,36 +1,146 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Portfolio
 
-## Getting Started
+  
 
-First, run the development server:
+This is a personal portfolio website built using [Next.js](https://nextjs.org), showcasing my skills, projects, and experiences.
+
+  
+
+## Introduction
+
+  
+
+Welcome to my portfolio! This website is designed to provide an overview of my background, skills, and projects. It includes sections such as About, Experience, Skills, Projects, and Certificates.
+
+  
+
+## Technologies Used
+
+  
+
+-  **Next.js**: A React framework for building fast and user-friendly web applications.
+
+-  **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+
+-  **Framer Motion**: A library for animations and gestures in React.
+
+-  **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+
+  
+
+## Installation
+
+  
+
+To get started with this project, follow these steps:
+
+  
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+git clone https://github.com/WORRAPHONG-CH/my-portfolio.git
+
+cd my-portfolio
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Install the dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
 
-## Learn More
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+# or
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+yarn install
+
+# or
+
+pnpm install
+
+```
+
+  
+
+3. Run the development server:
+
+```bash
+
+npm run dev
+
+# or
+
+yarn dev
+
+# or
+
+pnpm dev
+
+```
+
+  
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+  
+## Sections
+
+  
+
+-  **Home**: The landing page with a hero section.
+
+-  **About**: Information about my background and education.
+
+-  **Experience**: Details of my professional experience.
+
+-  **Skills**: A list of my technical skills with icons.
+
+-  **Projects**: A showcase of my projects with descriptions and links.
+
+-  **Certificates**: A list of my certifications.
+
+  
+
+  
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+  
+
 ## Deploy on Vercel
+
+  
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+  
+
+## Contact
+
+  
+
+Feel free to reach out if you have any questions or opportunities!
+
+  
+
+- Email: Worraphong.che@gmail.com
+
+- GitHub: [WORRAPHONG-CH](https://github.com/WORRAPHONG-CH)
+
+- LinkedIn: [Worraphong Chenvigyakit](https://www.linkedin.com/in/worraphong-chenvigyakit-bb58a2229/)
+
+  
+
+Thank you for visiting my portfolio!
+
+
+> Written with [StackEdit](https://stackedit.io/).
+
