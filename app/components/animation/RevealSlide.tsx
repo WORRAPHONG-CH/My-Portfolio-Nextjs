@@ -18,7 +18,7 @@ const RevealSlide:React.FC<RevealProps> = (
     // const ref = useRef(null);
     // const isInView = useInView(ref,{once:true}) // once: true => prevent continue firing on/off from scroll forward and backward
     const [scope,animate] = useAnimate();
-    const isInView = useInView(scope,);
+    const isInView = useInView(scope,{once:true});
 
     
     useEffect(() => {

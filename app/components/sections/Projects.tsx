@@ -43,7 +43,11 @@ const Projects = () => {
         <RevealSlide><h1 className='text-4xl font-extrabold md:text-5xl'>Projects</h1></RevealSlide>
         <hr />
       </div>
-      <div className='w-full h-[calc(100vh-100px)] grid grid-cols-12 gap-y-5 mt-8 lg:gap-x-5 lg:gap-y-8 overflow-y-auto md:no-scrollbar'>
+      <div className='w-full h-[calc(100vh-20px)] px-5 pt-2 pb-40  grid grid-cols-12 gap-y-5 mt-8 lg:gap-x-5 lg:gap-y-8 overflow-y-auto md:no-scrollbar'
+      style={{
+        maskImage: `linear-gradient(to top, transparent, black 40%)`,
+      }}  
+      >
         {
           projectContentList.map(({ name, imgSrc, tech, content, githubLink, demoLink }, index) => {
             return (

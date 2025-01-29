@@ -24,8 +24,8 @@ export const ProjectCard:React.FC<ProjectCardType> = (
 ) => {
   return (
     <Reveal className=''>
-    <div className='w-full h-[550px] md:h-[520px]  hover:cursor-pointer'>
-        <div className='w-full h-[180px] md:h-[220px] relative overflow-hidden hover:rounded-2xl'>
+    <div className='w-full h-fit h-[550px]1 md:h-[550px]  hover:cursor-pointer bg-slate-800 rounded-2xl '>
+        <div className='w-full h-[180px] md:h-[220px] relative overflow-hidden hover:rounded-2xl bg-slate-50 rounded-t-2xl'>
             <Image src={imgSrc} alt={name} priority={true}
             fill
             style={{objectFit:'contain'}}

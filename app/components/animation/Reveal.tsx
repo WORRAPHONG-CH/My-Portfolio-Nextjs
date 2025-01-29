@@ -12,7 +12,7 @@ const Reveal:React.FC<RevealProps> = (
     {children,width='fit', className}
 ) => {
     const [scope,animate] = useAnimate()
-    const isInView = useInView(scope)
+    const isInView = useInView(scope,{once:true})
 
     useEffect(()=>{
         if(isInView){
